@@ -29,8 +29,15 @@
         }
 
         .btn-primary{
-            color: #ABEF5F;
-        }
+            color: #ABEF5F;}
+
+        
+            .bg-image-full {
+            background-image: url('assets/bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+                }
     </style>
     
 </head>
@@ -92,7 +99,7 @@
                 <div class="navbar-end">
                     <i class="fa-solid fa-magnifying-glass p-2"></i>
                     <i class="fa-solid fa-cart-shopping p-5"></i>
-                    <a class="btn bg-[#ABEF5F]">Button
+                    <a class="btn bg-[#ABEF5F]">Book Consult
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
                           </svg>
@@ -204,7 +211,7 @@
 
                        <!-- card section -->
 
-                       <div class="grid grid-cols-2 lg:grid-cols-4 gap-5">
+                       <div class="grid grid-cols-1 lg:grid-cols-4 gap-5">
                         <div class="card bg-[#E7C1D3] mt-10 m-16 text-color-primary-2 ">
 
                             <div class="card-actions justify-start">
@@ -262,8 +269,9 @@
 
          <!-- read our article and news section -->
           <section>
-            <div>
-                <a class="btn bg-[#ABEF5F] justify-center">
+            <!-- button -->
+             <div class="content-center">
+                <a class="btn bg-[#ABEF5F] items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
                         <path fill-rule="evenodd" d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z" clip-rule="evenodd" />
                       </svg>
@@ -271,7 +279,8 @@
                     Rinterio News
  
                 </a>
-
+             </div>
+            <div>
                 <!-- text part -->
                 <h1 class="text-6xl font-bold mt-20 text-center">Read Our Articles and News</h1>
                 <br>
@@ -347,6 +356,113 @@
                     </div>
                 </div>
                 </div>
+
+                <!-- let's discuss next project -->
+                 <div class="bg-image-full h-screen flex items-center justify-center mt-20">
+                        
+
+                    <div>
+                        <div class="content-center">
+                            <a class="btn bg-[#ABEF5F] items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+                                    <path fill-rule="evenodd" d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z" clip-rule="evenodd" />
+                                  </svg>
+                                  
+                                let's connect
+             
+                            </a>
+                         </div>
+
+
+                         <!-- texts -->
+
+                         <div class="text-center">
+                            <h1 class="text-5xl font-bold">Let’s Discuss Next Project</h1>
+                            <p class="py-6">
+                                The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
+                            </p>
+                          </div>
+    
+                         <!-- emails -->
+    
+    
+                         <div class="hero">
+                            <div class="hero-content flex-col lg:flex-row-reverse">
+                              
+                              <div class="card max-w-sm shrink-0 ">
+                                <form class="card-body">
+                                  <div class="lg:flex gap-20">
+                                    
+                                    <div>
+
+                                        
+                                        <div class="form-control">
+                                            <label class="label">
+                                              <span class="label-text">first name</span>
+                                            </label>
+                                            <input type="name" placeholder="first name" class="input input-bordered" required />
+                                          </div>
+                                          <div class="form-control">
+                                            <label class="label">
+                                              <span class="label-text">phone number</span>
+                                            </label>
+                                            <input type="phone number" placeholder="phone number" class="input input-bordered" required />
+                                            <label class="label">
+                                              <a href="#" class="label-text-alt link link-hover">please input phone number</a>
+                                            </label>
+                                          </div>
+                                      </div>
+                                      
+                                       
+                                           <div>
+                                            <div class="form-control">
+                                                <label class="label">
+                                                  <span class="label-text">last name</span>
+                                                </label>
+                                                <input type="name" placeholder="last name" class="input input-bordered" required />
+                                              </div>
+                                              <div class="form-control">
+                                                <label class="label">
+                                                  <span class="label-text">email</span>
+                                                </label>
+                                                <input type="email" placeholder="email" class="input input-bordered" required />
+                                                <label class="label">
+                                                  <a href="#" class="label-text-alt link link-hover">Forgot email?</a>
+                                                </label>
+                                              </div>
+                                           </div>
+                                       
+                                           
+                                  </div>
+
+                                    <div>
+                                        <input class="mx-auto h-10 w-50 rounded-xl" placeholder="type your message here" type="text">
+                                    </div>
+                                  <!-- button -->
+                                  <div class="form-control mt-6">
+                                    <button class="btn bg-[#ABEF5F]">send mail 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
+                                          </svg>
+                                    </button>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+
+
+
+
+                    </div>
+
+
+                    
+                   
+                        
+                 </div>
           </section>
 
     </main>
@@ -354,7 +470,50 @@
     
 
 
-    <footer></footer>
+    <footer>
+
+        <footer class="footer footer-center bg-[#1C1C1C] text-primary-content p-10">
+            <aside>
+            </div>
+            <a class="btn btn-ghost text-xl"><i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-xl text-black"></i>
+              Rinterio
+              </a>
+          </div>
+              <p class="font-bold">
+                The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
+              </p>
+              
+            </aside>
+            
+             
+            
+
+              <ul class="menu menu-horizontal px-1">
+                <li class="font-bold"><a>Home</a></li>
+                <li>
+                  
+                    <summary class="text-color-primary">Services</summary>
+                    
+                  
+                </li>
+                <li class="text-color-primary"><a>Portfolio</a></li>
+                </li>
+                <li class="text-color-primary"><a>Blogs</a></li>
+                </li>
+                <li class="text-color-primary"><a>Contact us</a></li>
+              </ul>
+
+
+
+              <div class="form-control mt-6">
+                <button class="btn bg-[#ABEF5F]">book consult now
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                        <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+              </div>
+          </footer>
+    </footer>
     
 </body>
 </html>
